@@ -1,8 +1,5 @@
 # Arduino Object Detecting Smart Car
 
-<p align="center">
- ** <img src="images/car_setup.jpg" alt="Arduino Object Detecting Smart Car" width="700">**
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arduino-Uno-blue?logo=arduino" />
