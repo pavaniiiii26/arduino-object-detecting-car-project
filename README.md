@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Platform-Arduino-green" />
   <img src="https://img.shields.io/badge/Category-Robotics-red" />
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
+ <img src="https://img.shields.io/badge/Purpose-Educational-blue" />
 </p>
 
 An Arduino-based autonomous obstacle detecting car that uses an ultrasonic sensor mounted on a servo motor to scan its surroundings and automatically change direction to avoid obstacles.
