@@ -1,6 +1,9 @@
 # arduino-object-detecting-car-project
 An Arduino-based autonomous obstacle detection car that uses an ultrasonic sensor mounted on a servo motor to scan its surroundings and automatically change direction to avoid obstacles.
 
+## 📸 Project Preview
+![Smart Car](images/car_setup.jpg)
+
 # 🚗 Arduino Object Detecting Smart Car
 
 An autonomous smart car built using Arduino that can detect and avoid obstacles automatically.  
@@ -65,12 +68,10 @@ arduino-object-detecting-car
 ```
 
 ---
-
 ## 🎥 Demo
-A short demonstration video of the smart car detecting and avoiding obstacles.
+Watch the smart car detecting and avoiding obstacles.
 
-File: `object-detecting-smart-car-demo.mp4`
-
+[Watch Demo](videos/object-detecting-smart-car-demo.mp4)
 ---
 
 ## 📚 Learning Outcomes
