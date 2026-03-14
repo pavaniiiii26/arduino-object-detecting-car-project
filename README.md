@@ -1,24 +1,90 @@
 # arduino-object-detecting-car-project
 An Arduino-based autonomous obstacle detection car that uses an ultrasonic sensor mounted on a servo motor to scan its surroundings and automatically change direction to avoid obstacles.
 
-# Object Detecting Smart Car 🚗
+# 🚗 Arduino Object Detecting Smart Car
 
-This project is an Arduino-based smart car designed to detect and avoid obstacles autonomously. The system uses an ultrasonic sensor mounted on a servo motor to continuously scan the surrounding environment and measure the distance to nearby objects.
+An autonomous smart car built using Arduino that can detect and avoid obstacles automatically.  
+The system uses an ultrasonic sensor mounted on a servo motor to scan the surrounding environment and determine the safest direction for movement.
 
-When the car detects an obstacle within a predefined distance, it stops and the servo motor rotates the ultrasonic sensor to check both the left and right directions. Based on the measured distances, the car selects the direction with more space and moves accordingly to avoid the obstacle.
+This project demonstrates the integration of sensors, actuators, and basic decision-making logic in robotics.
 
-This project demonstrates the integration of sensors, motor control, and basic decision-making logic using Arduino.
+---
 
-## Technologies Used
-- Arduino programming
-- Ultrasonic distance sensing
-- Servo motor scanning mechanism
-- Motor driver control for navigation
+## 📌 Project Overview
+The car continuously moves forward while monitoring the distance to nearby objects using an ultrasonic sensor.  
+When an obstacle is detected within a predefined range, the car stops and scans both the left and right directions using a servo motor.
 
-## Key Features
-• Real-time obstacle detection  
-• Servo-based environment scanning  
-• Automatic path selection  
-• Autonomous movement and obstacle avoidance
+Based on the measured distances, the car selects the direction with more free space and turns accordingly to avoid the obstacle.
 
-This project was built as part of my learning journey as a first-year AI/ML student exploring robotics and embedded systems.
+---
+
+## 🛠 Hardware Components
+- Arduino Uno
+- Ultrasonic Sensor (HC-SR04)
+- Servo Motor
+- L298N Motor Driver Module
+- DC Motors
+- Robot Chassis with Wheels
+- Battery Pack
+- Jumper Wires
+
+---
+
+## ⚙️ Features
+- Real-time obstacle detection  
+- Automatic obstacle avoidance  
+- Servo-based environmental scanning  
+- Autonomous navigation  
+
+---
+
+## 🔧 How It Works
+1. The ultrasonic sensor measures the distance to objects in front of the car.
+2. If an obstacle is detected within a set distance, the car stops.
+3. The servo motor rotates the sensor to check the **left and right directions**.
+4. The system compares the available space in both directions.
+5. The car turns toward the direction with **more free space** and continues moving.
+
+---
+
+## 📂 Project Structure
+
+```
+arduino-object-detecting-car
+│
+├── code
+│   └── code_object_detection_car.ino
+│
+├── images
+│   └── car_setup.jpg & car_setup.jpg
+│
+├── circuit
+│   └── circuit_diagram_and_connections.png
+│
+└── README.md
+```
+
+---
+
+## 🎥 Demo
+A short demonstration video of the smart car detecting and avoiding obstacles.
+
+File: `object-detecting-smart-car-demo.mp4`
+
+---
+
+## 📚 Learning Outcomes
+Through this project I learned:
+- Arduino programming basics
+- Sensor integration
+- Motor control using motor drivers
+- Basic robotics navigation logic
+
+---
+
+## 👩‍💻 Author
+**Pavani Patel**  
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository!
